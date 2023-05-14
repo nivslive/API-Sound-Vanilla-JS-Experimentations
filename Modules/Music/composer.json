@@ -1,0 +1,26 @@
+{
+    "name": "nwidart/music",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Music\\": ""
+        }
+    },
+    "require": {
+        "livewire/livewire": "^2.12"
+    }
+}
